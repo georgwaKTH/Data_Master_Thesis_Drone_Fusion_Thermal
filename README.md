@@ -1,2 +1,1 @@
-# Data_Master_Thesis_Drone_Fusion_Thermal
-appendix datasets
+This repo contains full result data from the master thesis
