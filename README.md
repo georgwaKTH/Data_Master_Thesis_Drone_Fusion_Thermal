@@ -3,3 +3,9 @@ This repo contains full result data from the master thesis
 Simulation_Results.csv are the full results from running the 2x4 result gathering experiment on the UE4 simulation
 
 Validation_Results.csv are the full results gathered from real camera sequences from a stereo and a thermal camera.
+
+
+the three .py files contain the main important parts of the code. The rest of the code is simply wrappers and stuff to make it work with UE4, Airsim and RTABmap, as well as saving metrics and other ROS stuff etc.
+frame.py - basic library written for supporting sensor fusion
+ROS2_NODE_FUSION.py - The sensor fusion node
+phoenix_model_node.py - The thermal monocular depth inference node
